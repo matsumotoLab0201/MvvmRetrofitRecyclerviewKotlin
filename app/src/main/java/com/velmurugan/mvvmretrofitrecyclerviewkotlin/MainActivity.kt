@@ -38,15 +38,15 @@ class MainActivity : AppCompatActivity() {
         })
         viewModel.getAllJsonA()
 
-        binding.btn1.setOnClickListener {
-            val context = binding.root.context
-
-            Intent(Intent.ACTION_VIEW).also {
-                val url = "https://www.google.co.jp"
-                it.data = Uri.parse(url)
-                context.startActivity(it)
-            }
-        }
+//        binding.btn1.setOnClickListener {
+//            val context = binding.root.context
+//
+//            Intent(Intent.ACTION_VIEW).also {
+//                val url = "https://www.google.co.jp"
+//                it.data = Uri.parse(url)
+//                context.startActivity(it)
+//            }
+//        }
 
     }
 }
